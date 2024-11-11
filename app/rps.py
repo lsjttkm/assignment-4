@@ -99,7 +99,7 @@ def determine_outcome(u, c):
 
 
 
-if __name__ == "__main__":
+if __name__ == "__main__": #main conditional; allows us to import code smoothly from this file
 
     #
     # USER SELECTION
