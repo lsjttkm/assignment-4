@@ -2,6 +2,10 @@
 
 from app.rps import determine_outcome
 
+def test_example():
+    assert 2 + 2 == 4
+
+
 def test_winners():
     # tests for all edge cases:
 
@@ -13,6 +17,6 @@ def test_winners():
     assert determine_outcome(u="paper", c="paper") == "TIE GAME"
     assert determine_outcome(u="paper", c="scissors") == "COMPUTER WINS"
 
-    assert determine_outcome(u="scissors", c="scissors") == "TIE"
-    assert determine_outcome(u="scissors", c="paper") == "WIN"
-    assert determine_outcome(u="scissors", c="rock") == "LOSE"
+    assert determine_outcome(u="scissors", c="scissors") == "TIE GAME"
+    assert determine_outcome(u="scissors", c="paper") == "USER WINS"
+    assert determine_outcome(u="scissors", c="rock") == "COMPUTER WINS"
