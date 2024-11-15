@@ -1,16 +1,13 @@
 # LOCAL DEV (ENV VARS)
 
-import os
-from dotenv import load_dotenv
 import requests
 import json
 from pprint import pprint
 from statistics import mean
 from plotly.express import line
 
-load_dotenv() #looks in the .env file for environment variables
+from app.alpha import API_KEY
 
-API_KEY = os.getenv("ALPHAVANTAGE_API_KEY", default="demo")
 
 def fetch_unemployment_json():
 
