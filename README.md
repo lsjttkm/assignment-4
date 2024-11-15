@@ -1,4 +1,4 @@
-# Cleanup-exercise (Assignment 4)
+# Assignment 4 (Cleanup-exercise)
 
 
 ## Setup
