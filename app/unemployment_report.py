@@ -9,7 +9,7 @@ from plotly.express import line
 from app.alpha import API_KEY
 
 def format_pct(percentage):
-    return f"${float(percentage):,.2f}"
+    return f"{float(percentage):,.1f}%"
 
 
 def fetch_unemployment_json():
